@@ -2,7 +2,7 @@ from flask import Flask
 from flask import request
 from flask import render_template
 
-var = flask (__name__)
+var = Flask (__name__)
 @var.route("/")
 def main():
     return render_template("index.html")
